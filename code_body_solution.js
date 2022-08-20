@@ -108,13 +108,11 @@ for (let i=0; i<arrSolutionPaths.length; i++) {
         .then(result => result.text())
         .then(result => {
             codeBodySolution = result.replace(/</g, '&lt')            
-            let codeHTMLSolution = ''
-            let toggleSolution = false 
-             
+            const codeHTMLSolution = `<pre id='box_todo_${i}' class='box_todo'><code class='language-js todo'>${codeBodySolution}</code></pre>`
+            let toggleSolution = false                         
             if (arrSolutionButtons[i]) {              
                 arrSolutionButtons[i].addEventListener('click', function () {
-                    if (!toggleSolution) { 
-                    codeHTMLSolution = `<pre id='box_todo_${i}' class='box_todo'><code class='language-js todo'>${codeBodySolution}</code></pre>` 
+                    if (!toggleSolution) {
                     arrSolutionButtons[i].insertAdjacentHTML('afterend', codeHTMLSolution)
                     Prism.highlightAll()
                     toggleSolution = true                    
