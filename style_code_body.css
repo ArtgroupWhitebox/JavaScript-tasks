@@ -1,0 +1,15 @@
+pre.box_todo.language-js {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    background: #282834;
+    font-size: 14px;  
+}
+
+code.todo.language-js {    
+    color: #bfc1c2;    
+    text-shadow: none;
+    line-height: 1;  
+}
+
+    

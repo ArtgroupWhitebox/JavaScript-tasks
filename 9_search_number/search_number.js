@@ -1,0 +1,11 @@
+const search = (array, target) => {
+    for (let i=0; i<array.length; i++) {
+        if (array[i] === target) return i 
+    } 
+    return -1   
+}
+
+// сложность O(n)
+// ?
+console.log(search([1, 3, 6, 13, 17], 13)) // -> 3
+console.log(search([1, 3, 6, 13, 17], 12)) // -> -1
