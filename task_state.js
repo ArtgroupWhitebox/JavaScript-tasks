@@ -4,9 +4,6 @@ const bodyTask = document.getElementById('body_task')
 const inputTask = document.getElementById('input_task')
 const outputTask = document.getElementById('output_task')
 
-const headerSolution = document.getElementById('header_solution')
-const h2Solution = document.getElementById('h2_solution')
-
 let taskLocation = window.location.search  // ?task_1
 let solutionAmount = null
 
@@ -127,6 +124,3 @@ if (h2Task) h2Task.insertAdjacentHTML('afterbegin', taskName)
 if (bodyTask) bodyTask.insertAdjacentHTML('afterbegin', taskBody)
 if (inputTask) inputTask.insertAdjacentHTML('beforeend', taskInput)
 if (outputTask) outputTask.insertAdjacentHTML('beforeend', taskOutput)
-
-if (headerSolution) headerSolution.insertAdjacentHTML('afterbegin', solutionNumber)
-if (h2Solution) h2Solution.insertAdjacentHTML('afterbegin', solutionName)
