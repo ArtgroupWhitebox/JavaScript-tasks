@@ -5,21 +5,29 @@
     <link rel='stylesheet' href='prism.css'/>
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='style_button.css'/>
+    <link rel='stylesheet' href='style_button_back.css'/>
     <link rel='stylesheet' href='style_code_body.css'/>
     
     <title>JavaScript</title>
 </head>
 <body>
+    <div class='button_back_container'>
+        <div id='button_backspace_box' class='button_back_box'></div>
+        <div id='button_topics_box' class='button_back_box'></div>
+    </div>
     <div class='header_box'>
         <div id='header_task' class='header'></div>
         <div id='h2_task' class='h2'></div> 
-    </div>
+    </div>        
+    
     <div class='content'>
         <div id='list_solution'></div>
     </div>
+    <div id='button_up_top_box' class='button_up_top_box'></div>
     
     <script defer src='task_state.js'></script>
     <script defer src='button_solution.js'></script>
+    <script defer src='button_back.js'></script>
     <script defer src='code_body_solution.js'></script>
     <script src='prism.js' data-manual></script>
 </body>

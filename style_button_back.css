@@ -1,0 +1,75 @@
+.button_back_container {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button_back_box {    
+  text-align: center;
+}
+
+.button_topics_box{
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+}
+
+.button_up_top_box {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;    
+  text-align: center;
+}
+
+.button_back {
+  width: 80px;
+  height: 28px;
+  margin: 20px;
+  padding: 0px;
+  background: none;    
+  border-radius: 4px;
+  border: 1px solid #2c2c39;
+  color: #2c2c39;      
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button_up_top {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
+  background: none;    
+  border-radius: 20px;
+  border: 1px solid #2c2c39;
+  color: #2c2c39;   
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.button_link_topic {
+  padding: 3px 16px;
+  text-decoration: none;
+  color: #2c2c39;      
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.button_link_back {
+  padding: 3px 33px;
+  text-decoration: none;
+  color: #2c2c39;      
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.button_link_topic:hover, .button_link_back:hover,
+.button_back:hover, .button_up_top:hover {
+  border: 1px solid #b0f2ff;
+  color:#b0f2ff; 
+}
