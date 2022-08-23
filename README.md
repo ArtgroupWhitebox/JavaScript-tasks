@@ -1,10 +1,9 @@
 # JavaScript-tasks
 
 Публичный адрес сайта: [https://artgroupwhitebox.github.io/JavaScript-tasks/](https://artgroupwhitebox.github.io/JavaScript-tasks/)
-
-## Решаем задачи на JavaScript
 ![title](screenshotsReadme/js_t_title.jpg)
 
+# Решаем задачи на JavaScript
 ## Описание
 На сайте собраны различные задачи для самостоятельного решения на языке программирования JavaScript. 
 По каждой задаче приведено одно или несколько вариантов решений 
