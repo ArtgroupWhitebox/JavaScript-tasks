@@ -12,4 +12,13 @@ code.todo.language-js {
     line-height: 1;  
 }
 
+@media (max-width: 570px) {
+    pre.box_todo.language-js {
+        padding-left: 20px;
+        font-size: 12px;  
+    }
     
+    code.todo.language-js {    
+        line-height: 0.8;  
+    }
+}    

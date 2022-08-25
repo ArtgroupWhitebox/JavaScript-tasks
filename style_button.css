@@ -24,3 +24,19 @@
 .button:hover, .button_link:hover {
   color:#66d9ef;
 }
+
+@media (max-width: 570px) {
+  .button {
+    width: 134px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .button_link {
+    width: 134px;
+    height: 40px;
+    font-size: 16px;
+  }
+}

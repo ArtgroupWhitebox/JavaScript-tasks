@@ -7,8 +7,9 @@ textarea:focus {
 }
 
 html {
+    width: 100%;
     background: #a7a8b0;
-    background: linear-gradient(180deg, #a7a8b0 0%, #535358 100%);
+    background: linear-gradient(180deg, #a7a8b0 0%, #6e6e76 100%);
     overflow: auto;
 }
 
@@ -33,10 +34,11 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
+    min-width: 360px;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     background: #a7a8b0;
-    background: linear-gradient(180deg, #a7a8b0 0%, #535358 100%);
+    background: linear-gradient(180deg, #a7a8b0 0%, #6e6e76 100%);
     align-items: center;
     text-align: center;
     font-family: "Espuma Pro", Helvetica, Arial, sans-serif;
@@ -45,12 +47,13 @@ body {
 }
 
 .header_box {
-    padding-bottom: 40px;    
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -69,7 +72,7 @@ body {
 }
 
 .h2 {
-    margin-bottom: 10px;
+    margin: 0px 40px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -82,7 +85,8 @@ body {
 }
 
 .content {
-    width: calc(100vw - 240px);
+    width: 88%;
+    max-width: 740px;
     margin: auto;
     text-align: left;
 }
@@ -111,19 +115,50 @@ body {
 }
 
 .fotter_box {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 10px;
     position: fixed;   
     bottom: 0;
     width: 100%; 
     text-align: center;
-    background-color: rgba(83,83,88,1);
+    background: #6e6e76;
 }
 
 .fotter {
+    color: #66d9ef;
     font-size: 14px;
 }
 
 .button_box {    
     text-align: left;
+}
+
+@media (max-width: 570px) {
+    .header {
+        padding: 15px 20px 15px 20px;
+        font-size: 24px;
+    }
+       
+    .h1 {
+        font-size: 23px;
+    }
+    
+    .h2 {
+        font-size: 21px;
+    }
+    
+    .h2_topic {
+        font-size: 21px;
+    }
+    
+    .link {
+        font-size: 16px;
+    }
+        
+    .text {
+        font-size: 16px;
+    }
+       
+    .fotter {
+        font-size: 12px;
+    }
 }
